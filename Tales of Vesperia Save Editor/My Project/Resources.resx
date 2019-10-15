@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MainFormTitle" xml:space="preserve">
+    <value>Tales of Vesperia Save Editor</value>
+    <comment>The title of the main form.</comment>
+  </data>
+  <data name="msgBoxErrorOpenParsingFailure" xml:space="preserve">
+    <value>An error occured while parsing the package.</value>
+    <comment>The error message to display when opening a package fails because parsing fails.</comment>
+  </data>
+  <data name="msgBoxErrorOpenSaveExtractFailure" xml:space="preserve">
+    <value>An error occured while extracted the save data from the CON File</value>
+    <comment>The error message to display when opening a package fails because the save data will not extract.</comment>
+  </data>
+  <data name="msgBoxErrorOpenSaveMissing" xml:space="preserve">
+    <value>Could now locate save in CON File</value>
+    <comment> container.</comment>
+  </data>
+  <data name="msgBoxErrorPopulateValuesFailed" xml:space="preserve">
+    <value>There was an error populating the form with values read from the save.</value>
+    <comment>The error message to display when and error occurs reading values from the save and using them to populate the form.</comment>
+  </data>
+  <data name="msgBoxErrorSaveCONInjectionFailure" xml:space="preserve">
+    <value>An error occured while injecting the save data back into the CON File</value>
+    <comment>The error message to display when saving a package fails because injecting back into the CON fails.</comment>
+  </data>
+  <data name="msgBoxErrorSaveReHashFailure" xml:space="preserve">
+    <value>Unable to hash/sign save</value>
+    <comment>The error message to display when saving a package fails becase ReSign/ReHash failed.</comment>
+  </data>
+  <data name="msgBoxOpenSuccess" xml:space="preserve">
+    <value>Save Loaded Successfully</value>
+    <comment>The message to display when a save is opened successfully.</comment>
+  </data>
+  <data name="msgBoxSaveSuccess" xml:space="preserve">
+    <value>Save Modded Successfully</value>
+    <comment>The message to display when a save is modded and saved successfully.</comment>
+  </data>
+  <data name="msgBoxTitleErrorOpen" xml:space="preserve">
+    <value>Error opening gamesave</value>
+    <comment>The title of the message box when there is an error opening a gamesave.</comment>
+  </data>
+  <data name="msgBoxTitleErrorSave" xml:space="preserve">
+    <value>Error saving gamesave</value>
+    <comment>The title of the message box when there is an error saving a gamesave.</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TOV_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOV Icon.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgEstelle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\304px-Estelle.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgJudith" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\282px-Judith1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgKarol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\248px-Karol.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgRaven" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Raven.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgRepede" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\300px-Repede.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgRita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\367px-Rita.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgYuri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\316px-Yuri_Lowell.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msgBoxErrorInvalidInput" xml:space="preserve">
+    <value>The value you entered is invalid. If you entered a value that is too high, it has been reset to the maximum allowed value.</value>
+    <comment>The message to display when a value is entered that is outside of the allowed parameters.</comment>
+  </data>
+</root>
